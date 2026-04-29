@@ -4,6 +4,7 @@ import { ServicesSection } from '../components/home/Services';
 import { FeaturedTrucks } from '../components/home/FeaturedTrucks';
 import { WhyChooseUs } from '../components/home/WhyChooseUs';
 import { Testimonials } from '../components/home/Testimonials';
+import { GoogleReviews } from '../components/home/GoogleReviews';
 import { motion } from 'motion/react';
 
 export function Home() {
@@ -19,6 +20,7 @@ export function Home() {
       <FeaturedTrucks />
       <WhyChooseUs />
       <Testimonials />
+      <GoogleReviews />
       
       {/* Call to Action Section */}
       <section className="py-32 relative overflow-hidden">
