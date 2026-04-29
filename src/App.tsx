@@ -16,7 +16,7 @@ import { Contact } from './pages/Contact';
 
 export default function App() {
   return (
-    <Router>
+    <Router basename="/Food-Truck-Association">
       <div className="flex flex-col min-h-screen relative">
         <div className="bg-mesh">
           <div className="blob-1" />
